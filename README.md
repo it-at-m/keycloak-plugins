@@ -16,7 +16,11 @@ Collection of different [Keycloak](https://www.keycloak.org/) plugins.
 
 ## Components
 
-TBD
+- [authority-mapper](./authority-mapper): plugin for mapping Keycloak permissions into user info authorities claim
+- [custom-otp](./custom-otp)
+- [require-http-header-authenticator](./require-http-header-authenticator): plugin for requiring a specific header and value being present or not present
+- [require-role-authenticator](./require-role-authenticator)
+- [username-from-login-hint-authenticator](./username-from-login-hint-authenticator): plugin for extracting username from login_hint header
 
 ### Built With
 
