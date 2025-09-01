@@ -4,7 +4,7 @@
 
     <groupId>de.muenchen.oss.keycloak.custom</groupId>
     <artifactId>custom-otp</artifactId>
-    <version>1.0.5</version>
+    <version>1.0.5-SNAPSHOT</version>
     <name>custom-otp</name>
     <url>https://github.com/it-at-m/keycloak-plugins</url>
     <licenses>
