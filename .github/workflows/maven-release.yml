@@ -18,6 +18,7 @@ on:
         options:
           - authority-mapper
           - require-http-header-authenticator
+          - username-from-login-hint-authenticator
 
 jobs:
   release-maven:

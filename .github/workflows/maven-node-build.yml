@@ -17,6 +17,7 @@ jobs:
         include: # hier müssen die Pfade angegeben werden
           - app-path: authority-mapper
           - app-path: require-http-header-authenticator
+          - app-path: username-from-login-hint-authenticator
 
     steps:
       - uses: it-at-m/lhm_actions/action-templates/actions/action-checkout@9767179088fd2e344d1a24c17404ab809a60f1b6 # v1.0.20
