@@ -18,6 +18,7 @@ on:
         options:
           - authority-mapper
           - require-http-header-authenticator
+          - require-role-authenticator
           - username-from-login-hint-authenticator
 
 jobs:
