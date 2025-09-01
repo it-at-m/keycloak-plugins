@@ -22,7 +22,7 @@
     <artifactId>require-http-header-authenticator</artifactId>
     <version>3.1.0-SNAPSHOT</version>
     <name>require-http-header-authenticator</name>
-    <description>Keycloak plugin for enforcing 2FA if specific header is present</description>
+    <description>Keycloak plugin for requiring a specific header and value being present or not present</description>
     <url>https://github.com/it-at-m/keycloak-plugins</url>
     <licenses>
         <license>
