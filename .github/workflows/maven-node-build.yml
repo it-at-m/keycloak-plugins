@@ -16,6 +16,7 @@ jobs:
       matrix:
         include: # hier müssen die Pfade angegeben werden
           - app-path: authority-mapper
+          - app-path: custom-otp
           - app-path: require-http-header-authenticator
           - app-path: require-role-authenticator
           - app-path: username-from-login-hint-authenticator

@@ -1,0 +1,200 @@
+.login-pf-page {
+  height: 100%;
+  background: url("../img/hintergrund.jpg") no-repeat center center fixed;
+  background-size: cover;
+}
+
+.login-pf {
+  height: 100%;
+  background: url("../img/hintergrund.jpg") no-repeat center center fixed;
+  background-size: cover;
+}
+
+.pf-c-button.pf-m-primary {
+	background-color: #005A9F;
+}
+
+@media (max-width: 767px) {
+	#kc-header-wrapper {
+		color: white;
+	}
+	
+	#kc-locale-dropdown a {
+		color: black;
+	}
+	
+	#kc-locale {
+		top: 50px;
+	}
+	
+	#lhmlogo {
+		background: url("../img/logo.png");
+		background-size: contain;
+		position: absolute;
+		width: 150px;
+		height: 26px;
+		top: 10px;
+		right: 20px;
+	}
+	
+	
+	h1#kc-page-title {
+		padding-top: 20px;
+	}
+}
+
+@media (min-width: 768px) {
+	#lhmlogo {
+		background: url("../img/logo.png");
+		position: absolute;
+		width: 300px;
+		height: 52px;
+		top: 10px;
+		right: 20px;
+	}
+
+}
+
+@media (max-width: 1049px) {
+	#lhmdigimarke {
+		background: unset;		
+	}
+
+}
+
+@media (min-width: 1050px) {
+
+	#lhmdigimarke {
+		background: url("../img/digimarke.png");
+		position: absolute;
+		width: 256px;
+		height: 186px;
+		bottom: 10px;
+		right: 20px;
+		z-index: 1;	
+	}
+
+}
+
+.lhmtooltip {
+  position: absolute;
+  display: inline-block;
+  font-size: 1.2em;
+}
+
+
+@media only screen and (max-width: 767px) {
+	.lhmtooltip .tooltiptext {
+	  visibility: hidden;
+	  width: 250px;
+	  background-color: white;
+	  color: #3A5368;
+	  text-align: left;
+	  border-radius: 2px;
+	  border: 1px solid;
+	  border-color: #3A5368;
+	  padding: 10px;
+
+	  /* Position the tooltip */
+	  position: absolute;
+	  z-index: 1;  
+	  top: 40px;
+	  right: 105%;
+	}
+	
+	.login-pf-page .card-pf {
+		margin-left: 10px;
+		margin-right: 10px;
+	}
+}
+
+@media only screen and (min-width: 768px) {
+	.lhmtooltip .tooltiptext {
+	  visibility: hidden;
+	  width: 250px;
+	  background-color: white;
+	  color: #3A5368;
+	  text-align: left;
+	  border-radius: 2px;
+	  border: 1px solid;
+	  border-color: #3A5368;
+	  padding: 10px;
+
+	  /* Position the tooltip */
+	  position: absolute;
+	  z-index: 1;  
+	  top: -5px;
+	  left: 105%;
+	}
+}
+
+#kc-info-wrapper {
+	border-radius: 25px;
+}
+ 
+
+.lhmtooltip:hover .tooltiptext {
+  visibility: visible;
+}
+
+.lhmLoginPic {
+	float: left;
+	width: 100%;
+	background-color: white;
+	background-image: url('../img/user.svg');
+	background-position: 0px 0px;
+	background-size: 30px;
+    background-repeat: no-repeat;
+	padding-left: 30px;
+}
+
+.lhmLoginInput {
+	float: left;
+	color: #3A5368;
+}
+
+.lhmLoginPassword {
+	float: left;
+	color: #3A5368;
+}
+
+.lhmTogglePassword {
+	position: relative;
+}
+
+.lhmLoginKombi {
+	display: flex;
+	float: left;
+	width: 100%;
+	
+	background-color: white;
+	background-image: url('../img/lock.svg');
+	background-position: 5px 5px;
+	background-size: 20px;
+    background-repeat: no-repeat;
+    padding-left: 30px;
+	padding-bottom: 20px;
+}
+
+.lhmLoginLabel {
+	display: flex;
+	width: 100%;
+}
+
+.login-pf-page .card-pf {
+	border-radius: 25px;
+	z-index: 30;
+}
+
+.login-pf-page .card-pf p {
+	color: #3A5368;
+}
+
+.lhmImpressum {
+	display: block;
+	text-align: center;
+}
+
+body {
+	color: #3A5368;
+}

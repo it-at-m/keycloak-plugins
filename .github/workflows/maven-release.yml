@@ -17,6 +17,7 @@ on:
         required: true
         options:
           - authority-mapper
+          - custom-otp
           - require-http-header-authenticator
           - require-role-authenticator
           - username-from-login-hint-authenticator
