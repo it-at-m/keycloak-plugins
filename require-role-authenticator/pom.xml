@@ -33,7 +33,7 @@
         <java.version>21</java.version>
         <maven.compiler.source>${java.version}</maven.compiler.source>
         <maven.compiler.target>${java.version}</maven.compiler.target>
-        <keycloak.version>26.2.3</keycloak.version>
+        <keycloak.version>26.4.1</keycloak.version>
         <lombok.version>1.18.34</lombok.version>
     </properties>
 

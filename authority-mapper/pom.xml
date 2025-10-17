@@ -33,7 +33,7 @@
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
 		<maven.compiler.release>21</maven.compiler.release>
 		<lombok.version>1.18.36</lombok.version>
-		<keycloak.version>26.2.3</keycloak.version>
+		<keycloak.version>26.4.1</keycloak.version>
 		<scm.plugin.version>2.1.0</scm.plugin.version>
 	</properties>
 
