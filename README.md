@@ -16,7 +16,7 @@ Collection of different [Keycloak](https://www.keycloak.org/) plugins.
 
 ## DEPRECATED: Migrated to single Repos
 
-This repository is deprecated and the keycloak plguins were split up into singple repositories:
+This repository is deprecated and the keycloak plugins were split up into single repositories:
 - https://github.com/it-at-m/keycloak-authority-mapper-plugin
 - https://github.com/it-at-m/keycloak-custom-otp-plugin
 - https://github.com/it-at-m/keycloak-require-http-header-authenticator-plugin
