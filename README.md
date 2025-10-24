@@ -14,6 +14,15 @@
 
 Collection of different [Keycloak](https://www.keycloak.org/) plugins.
 
+## DEPRECATED: Migrated to single Repos
+
+This repository is deprecated and the keycloak plguins were split up into singple repositories:
+- https://github.com/it-at-m/keycloak-authority-mapper-plugin
+- https://github.com/it-at-m/keycloak-custom-otp-plugin
+- https://github.com/it-at-m/keycloak-require-http-header-authenticator-plugin
+- https://github.com/it-at-m/keycloak-require-role-authenticator-plugin
+- https://github.com/it-at-m/keycloak-username-from-login-hint-authenticator-plugin
+
 ## Components
 
 - [authority-mapper](./authority-mapper): plugin for mapping Keycloak permissions into user info authorities claim
